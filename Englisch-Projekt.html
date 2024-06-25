@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFun Adventure Park</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+        .activities, .pricing {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            flex: 1;
+            min-width: 250px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoFun Adventure Park</h1>
+        <p>Thrill, Educate, Conserve</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#activities">Activities</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="main-content">
+        <section id="about" class="section">
+            <h2>About EcoFun Adventure Park</h2>
+            <p>EcoFun Adventure Park is a unique, eco-friendly adventure park offering thrilling and educational activities for families, outdoor enthusiasts, and eco-conscious individuals. Our park is designed to promote sustainability and conservation while providing a fun and unforgettable experience.</p>
+        </section>
+        <section id="activities" class="section">
+            <h2>Activities</h2>
+            <div class="activities">
+                <div class="card">
+                    <h3>Zip-lining</h3>
+                    <p>Experience the thrill of soaring through the trees on our extensive zip-lining courses. Suitable for all ages and skill levels.</p>
+                </div>
+                <div class="card">
+                    <h3>Treetop Obstacle Courses</h3>
+                    <p>Navigate our challenging treetop obstacle courses, designed to test your balance, agility, and courage.</p>
+                </div>
+                <div class="card">
+                    <h3>Eco-Tours</h3>
+                    <p>Join our guided eco-tours to learn about local wildlife, plants, and our conservation efforts. Perfect for nature lovers and families.</p>
+                </div>
+                <div class="card">
+                    <h3>Sustainable Workshops</h3>
+                    <p>Participate in our hands-on workshops to learn about sustainable living, renewable energy, and environmental conservation.</p>
+                </div>
+            </div>
+        </section>
+        <section id="pricing" class="section">
+            <h2>Pricing</h2>
+            <div class="pricing">
+                <div class="card">
+                    <h3>Day Pass</h3>
+                    <p>$50 per person</p>
+                    <p>Includes access to all activities and workshops for the day.</p>
+                </div>
+                <div class="card">
+                    <h3>Family Pass</h3>
+                    <p>$180 for a family of four</p>
+                    <p>Includes access to all activities and workshops for the day.</p>
+                </div>
+                <div class="card">
+                    <h3>Annual Membership</h3>
+                    <p>$500 per person</p>
+                    <p>Unlimited access to the park and activities for one year, plus special member events and discounts.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 EcoFun Adventure Park. All rights reserved.</p>
+    </footer>
+</body>
+</html>
