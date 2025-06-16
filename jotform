@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Embedded JotForm</title>
+</head>
+<body>
+
+  <!-- JotForm Embed -->
+  <script type="text/javascript" src="https://form.jotform.com/jsform/251662126075050"></script>
+
+</body>
+</html>
